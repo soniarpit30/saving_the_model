@@ -1,0 +1,13 @@
+conda deactivate -- deactivate the current environment
+conda create -n deployment python=3.7 -- create a new conda environment. here deployement is the name of the environment
+conda activate deployment -- once created the enironment, activate it
+cd C:\Users\Arpit\Downloads\Learnbay\06_deployment --- path where the python code resides
+conda info --envs -- to view all the environments present.
+pip install flask 
+python app.py
+
+python --version --> to check python version
+conda env list --> to check all the env
+pip list --> lists all the packages installed
+pip freeze > requirement.txt --> to save all the libraries in txt file
+pip install -r requirement.txt --> to put all the libraries inside a venv 
